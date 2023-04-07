@@ -1,6 +1,12 @@
+/* @font-face {
+    font-family: 'Aspekta';
+    src: url('../fonts/Apekta/Aspekta-400.ttf') format('truetype')
+         /* url('../fonts/aspekta.woff') format('woff'); */
+  /* } */
+
 .nav-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-end;
     padding: 80px 0px 0px 64px;
@@ -12,6 +18,7 @@
     top: 47px;
     background: #E4F3E0;
     border-radius: 0px 0px 56px 56px;
+    z-index: -1;
 }
 
 .nav-heading {
@@ -32,7 +39,7 @@
 .nav-content {
     width: 702px;
     height: 120px;
-    font-family: 'Aspekta';
+    /* font-family: 'Aspekta'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -59,9 +66,9 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    border: none;
 
-
-    font-family: 'Aspekta';
+    /* font-family: 'Aspekta'; */
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -70,4 +77,136 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.nav-image {
+    width: 400px;
+    height: 569px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* 
+.nav-image-container {
+    border-bottom-right-radius: 10px;      
+} */
+
+.our-services-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 80px;
+    gap: 64px;
+
+    position: absolute;
+    width: 1440px;
+    height: 1108px;
+    left: 0px;
+    top: 792px;
+    background: #004346;
+}
+.our-services {
+    position: absolute;
+    left: 45%;
+    padding-bottom: 50px;
+}
+
+.our-services-container h1 {
+    width: 149px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.18em;
+    color: #FDE8CD;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.our-services-image h1 {
+    width: 433px;
+    height: 68px;
+    margin-top: 100px;
+
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 130%;
+    color: #B2ECA1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-image {
+    position: absolute;
+    width: 493px;
+    height: 714px;
+    left: 0px;
+    top: 100px; 
+}
+
+.our-services-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-services-content h2 {
+    width: 265px;
+    height: 35px;
+
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 50px !important;
+}
+
+.our-services-content p {
+    width: 607px;
+    height: 84px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #B5D6C8;
+
+    position: relative;
+    top: 10px;
+}
+
+.our-services-content a {
+    width: 84px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #15B779;
+    text-decoration: none;
+    /* margin-top: 50px !important; */
+} 
+
+.manage-text h1 {
+    position: absolute;
+    width: 941px;
+    height: 120px;
+    left: 250px;
+    top: 2017px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #004346;
 }
