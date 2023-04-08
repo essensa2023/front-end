@@ -204,9 +204,291 @@
     top: 2017px;
     /* font-family: 'Aspekta'; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 46px;
     line-height: 130%;
     text-align: center;
     color: #004346;
 }
+
+
+
+.italics {
+    font-style: italic;
+    font-weight: 200px !important;
+}
+
+
+.projects-outer {
+    position: absolute;
+    left: 175px;
+    width: 1214px;
+    height: 649px;
+    background-color: grey;
+}
+
+.signup-login-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 72px;
+    gap: 24px;
+    position: absolute;
+    width: 925px;
+    height: 155px;
+    left: 258px;
+    top: 2940px;
+    background: #D3F3C9;
+    border: 1px solid #004346;
+    border-radius: 24px;
+}
+
+.signup-login-section h1 {
+    width: 781px;
+    height: 35px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    color: #0C1E11;
+    /* justify-content: center; */
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 32px;
+    gap: 8px;
+    width: 106px;
+    height: 48px;
+    background: #004346;
+    border-radius: 64px;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #B2ECA1;
+    border: none;
+}
+
+.signup-btn {
+    width: 58px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #004346;
+    text-decoration: none;
+}
+
+.sign-log-btns {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 64px 0px;
+    gap: 128px;
+    position: absolute;
+    width: 1440px;
+    height: 1659px;
+    left: 0px;
+    top: 3159px;
+    background: #FFFFFF;
+}
+
+.contact-info h1 {
+    width: 245px;
+    height: 60px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    color: #433520;
+}
+
+.contact-info p {
+    /* width: 157px; */
+    height: 27px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    color: #191A19;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    width: 696px;
+    height: 715px;
+    background: #FDE8CD;
+    border-radius: 12px;
+}
+
+.subscription-plans-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px;
+    gap: 128px;
+    position: absolute;
+    width: 1440px;
+    height: 1659px;
+    left: 0px;
+    top: 4500px;
+    background: #FFFFFF;
+}
+
+.choose-right-plan {
+    width: 1440px;
+}
+
+.choose-right-plan h1 {
+    position: absolute;
+    left: 250px;
+    width: 945px;
+    height: 52px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+    position: absolute;
+    width: 350px;
+    height: 480px;
+    left: 0px;
+    top: 179px;
+    background: #E4F3E0;
+    border-radius: 24px;
+}
+
+.card-1 h1 {
+
+}
+
+.service-tag {
+    position: relative;
+    right:85px;
+    width: 99px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.duties-tag {
+    position: relative;
+    bottom: 60px;
+    width: 270px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.plans-container {
+    display: flex;
+}
+
+.card-1 h6 {
+    position: relative;
+    bottom:100px;
+    width: 131px;
+    height: 21px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h2 {
+    position: relative;
+    bottom: 150px;
+    width: 116px;
+    height: 35px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 500;  /* 700 */
+    font-size: 27px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h5 {
+    position: relative;
+    bottom: 190px;
+    width: 131px;
+    height: 21px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h3 {
+    position: relative;
+    bottom: 235px;
+    width: 122px;
+    height: 35px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 button {
+    color:#B2ECA1;
+    border: none;
+    position: relative;
+    bottom: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    width: 140px;
+    height: 48px;
+    background: #004346;
+    border-radius: 64px;
+}
+
