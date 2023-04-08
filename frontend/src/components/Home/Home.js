@@ -2,6 +2,11 @@ import NavBar from "../NavBar";
 import "./home.css";
 import navImage from "../../images/simon-lee-HmNmpnIZlU0-unsplash.png";
 import contentImage from "../../images/planet-volumes-Olu4k8c4A5Q-unsplash.png";
+import analyticsImage from "../../images/analytics-1.png";
+import ellipse from "../../images/ellipse-1.png";
+import curve1 from "../../images/curve-1.png";
+import curve2 from "../../images/curve-2.png";
+import curve3 from "../../images/curve-3.png";
 
 const Home = () => {
     return ( 
@@ -94,9 +99,34 @@ const Home = () => {
 
             {/* Projects */}
 
-            {/* <div className="projects-outer">
-                hello
-            </div> */}
+            <div className="analytics-card">
+                    <h1>Analytics</h1>
+            </div>
+
+            <div className="assessment-card">
+                    <h1>Assessment</h1>
+            </div>
+
+            <img src={analyticsImage} className="analytics-image" />
+            <img src={ellipse} className="ellipse-1" />
+            <img src={ellipse} className="ellipse-2" />
+
+            {/* <div className="curves"> */}
+                {/* <img src={curve1} className="curve-1" />
+                <img src={curve2} className="curve-2" />
+                <img src={curve3} className="curve-3" /> */}
+            {/* </div> */}
+
+
+            <div className="projects-outer">
+                <div className="projects-inner">
+                    <div className="equality-card">
+                        <h3>Equality</h3>
+                        <h1>2 Lakhs</h1>
+                        <p>1 Project Completed</p>
+                    </div>
+                </div>
+            </div>
 
             {/* Sign Up and Login Sections */}
 
@@ -120,7 +150,41 @@ const Home = () => {
                 </div>
                  
                 <div className="contact-form">
-                    hello
+                    <form>
+                        <div class="form-group">
+                            {/* <label for="name">Name:</label> */}
+                            <input type="text" id="name" name="name" placeholder="Name:" />
+                        </div>
+
+                        <div class="form-group">
+                            {/* <label for="email">Email:</label> */}
+                            <input type="email" id="email" name="email" placeholder="Email:" />
+                        </div>
+
+                        <div class="form-group">
+                            {/* <label for="password">Password:</label> */}
+                            <input type="text" id="password" name="password" placeholder="Password:" />
+                        </div>
+
+                        <div class="form-group">
+                            {/* <label for="password">Password:</label> */}
+                            <input type="text" id="password" name="password" placeholder="Company:" />
+                        </div>
+
+                        <div class="form-group">
+                            {/* <label for="password">Password:</label> */}
+                            <input type="text" id="password" name="password" placeholder="Topic:" />
+                        </div>
+
+                        <div class="form-group">
+                            {/* <label for="password">Password:</label> */}
+                            <input type="text" id="password" name="password" placeholder="Message:" />
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit">Schedule a Call</button>
+                        </div>
+                    </form>
                 </div> 
             </div>
 
@@ -161,6 +225,36 @@ const Home = () => {
                         <button>Subscribe</button>
                     </div> */}
 
+
+                </div>
+
+                {/* Footer */}
+
+                <div className="footer-container">
+                    <div className="features-and-details">
+                        <div className="features-line">
+                            <p>Services</p>
+                            <p>Pricing</p>
+                            <p>About Us</p>
+                            <p>About ESG & CSR</p>
+                        </div>
+                        <div className="details-line">
+                            <p>hi@essensa.com</p>
+                            <p>Address</p> 
+                        </div>
+                    </div>    
+
+                    <div className="ending-line-container">
+                        <div classname="logo-container">
+                            hello
+                        </div>
+                        <div className="privacy-sections">
+                            <p>Privacy Policy</p>
+                            <p>Terms of Service</p>
+                            <p>Cookie Policy</p>
+                            <p>Legal Notice</p>
+                        </div>
+                    </div>
 
                 </div>
 

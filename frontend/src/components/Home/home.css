@@ -221,10 +221,180 @@
 
 .projects-outer {
     position: absolute;
+    top: 2200px;
     left: 175px;
     width: 1214px;
     height: 649px;
-    background-color: grey;
+    background-color: rgb(222, 221, 221);
+    border-radius: 65px;
+}
+
+.projects-inner {
+    position: relative;
+    top: 25px;
+    left: 35px;
+    width: 1150px;
+    height: 600px;
+    border-radius: 65px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.equality-card {
+    width: 370px;
+    height: 220px;
+    position: relative;
+    top: 75px;
+    left: 150px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.equality-card h3 {
+    position: relative;
+    left:25px;
+    top:25px;
+    width: 78px;
+    height: 27px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3881px;
+    line-height: 130%;
+    color: #191A19;
+}
+
+.equality-card h1 {
+    position: relative;
+    top: 35px;
+    left: 17.5px;
+    width: 122px;
+    height: 45px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.4049px;
+    line-height: 130%;
+    color: #191A19;
+}
+
+.equality-card p {
+    position: relative;
+    top: 55px;
+    left: 65px;
+}
+
+.analytics-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px 48px;
+    gap: 4px;
+    position: absolute;
+    width: 225px;
+    height: 64px;
+    left: 104px;
+    top: 2680px;
+    background: #FFFFFF;
+    border: 1px solid #44554E;
+    border-radius: 16px;
+    z-index: 2;
+}
+
+.analytics-card h1, .assessment-card h1{
+    width: 93px;
+    height: 27px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 130%;
+    color: #191A19;
+}
+
+.assessment-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px 48px;
+    gap: 4px;
+    position: absolute;
+    width: 254px;
+    height: 64px;
+    left: 946px;
+    top: 2801px;
+    background: #FFFFFF;
+    border: 1px solid #44554E;
+    border-radius: 16px;
+    z-index: 2;
+}
+
+.analytics-image {
+    position: absolute;
+    width: 299px;
+    height: 175.39px;
+    left: 132px;
+    top: 2484px;
+    z-index: 3;
+}
+
+.ellipse-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 16.57px;
+    height: 16.57px;
+    left: 185.86px;
+    top: 2594.48px;
+    /* background: #E2C2F1; */
+    /* border: 1px solid #000000; */
+    z-index: 4;
+}
+
+.ellipse-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 16.57px;
+    height: 16.57px;
+    left: 307.39px;
+    top: 2528.88px;
+    /* background: #B8C6F5; */
+    /* border: 1px solid #000000; */
+    z-index: 4;
+}
+
+.curve-3 {
+    box-sizing: border-box;
+    position: absolute;
+    /* left: 0%;
+    right: 13.21%;
+    top: 14.41%;
+    bottom: -1.21%; */
+    transform: rotate(-9.56deg);
+    left: 20px;
+    top:400px;
+}
+
+.curve-2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 18.75%;
+    right: 27.67%;
+    top: 28.75%;
+    bottom: 17.67%;
+    transform: rotate(-10.24deg);
+}
+
+.curve-3 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 33.43%;
+    right: 33.7%;
+    top: 33.9%;
+    bottom: 33.23%;
 }
 
 .signup-login-section {
@@ -343,6 +513,58 @@
     background: #FDE8CD;
     border-radius: 12px;
 }
+
+/* ================================================================ */
+.form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button[type="submit"] {
+    display: block;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FDE8CD;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+  
+  button[type="submit"] {
+    background-color: #004346;
+    color: #B2ECA1;
+    /* border-color: #007bff; */
+    border-radius: 64px;
+    width: 179px;
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="submit"]:focus {
+    /* background-color: #0069d9;
+    border-color: #0062cc;
+    outline: none; */
+  }
+  
+/* ================================================================= */
 
 .subscription-plans-container {
     display: flex;
@@ -490,5 +712,77 @@
     height: 48px;
     background: #004346;
     border-radius: 64px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 72px;
+    position: absolute;
+    width: 1440px;
+    height: 347px;
+    left: 0px;
+    top: 4818px;
+    background: #02220B;
+}
+
+.features-line {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.features-and-details {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-line p {
+    text-decoration: none;
+    width: 150px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+}
+
+.details-line p {
+    width: 122px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.privacy-sections {
+    width: 691px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.privacy-sections p {
+    width: 100px;
+    height: 16px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #B5C4BE;
 }
 
