@@ -54,7 +54,7 @@
 }
 
 .navbar-list li a:hover {
-  color: #ff0;
+  color: #8cea6f;
 }
 
 
@@ -62,9 +62,11 @@
     position:relative;
     left: 300px;
     bottom: 7.5px;
+    width: 150px;
     background-color: #ECF2EA;
     border: none;
     color: #004346;
+    font-weight: 500;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
@@ -74,6 +76,12 @@
     font-size: 16px;
     cursor: pointer;
 } 
+
+.get_in_touch-button:hover {
+  background-color: #004346;
+  color: #B2ECA1;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
 
 .login {
   position: relative;

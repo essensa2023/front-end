@@ -63,9 +63,6 @@
     height: 48px;
     background: #004346;
     border-radius: 64px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     border: none;
 
     /* font-family: 'Aspekta'; */
@@ -77,6 +74,17 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.nav-button:hover .arrow-vector {
+    /* transition: width 0.4s ease-in-out; */
+    display: block;
+    position: relative;
+    left: 10px;
+}
+
+.nav-button:hover {
+    width: 25%;
 }
 
 .nav-image {
@@ -785,4 +793,13 @@
     line-height: 130%;
     color: #B5C4BE;
 }
+
+
+
+.arrow-vector {
+    display: none;
+    /* opacity: 0; */
+}
+
+
 

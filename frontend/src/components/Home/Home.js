@@ -4,6 +4,7 @@ import navImage from "../../images/simon-lee-HmNmpnIZlU0-unsplash.png";
 import contentImage from "../../images/planet-volumes-Olu4k8c4A5Q-unsplash.png";
 import analyticsImage from "../../images/analytics-1.png";
 import ellipse from "../../images/ellipse-1.png";
+import arrow from "../../images/arrow.png";
 import curve1 from "../../images/curve-1.png";
 import curve2 from "../../images/curve-2.png";
 import curve3 from "../../images/curve-3.png";
@@ -25,7 +26,7 @@ const Home = () => {
                         Make informed investments and manage portfolios with ease. 
                         Make a difference with your investments.
                     </p>
-                    <button className="nav-button">Get Started</button>
+                    <button className="nav-button">Get Started <img src={arrow} className="arrow-vector"/></button>
                 </div>
 
                 <div className="nav-image-container">
@@ -168,17 +169,17 @@ const Home = () => {
 
                         <div class="form-group">
                             {/* <label for="password">Password:</label> */}
-                            <input type="text" id="password" name="password" placeholder="Company:" />
+                            <input type="text" id="company" name="company" placeholder="Company:" />
                         </div>
 
                         <div class="form-group">
                             {/* <label for="password">Password:</label> */}
-                            <input type="text" id="password" name="password" placeholder="Topic:" />
+                            <input type="text" id="topic" name="topic" placeholder="Topic:" />
                         </div>
 
                         <div class="form-group">
                             {/* <label for="password">Password:</label> */}
-                            <input type="text" id="password" name="password" placeholder="Message:" />
+                            <input type="text" id="message" name="message" placeholder="Message:" />
                         </div>
 
                         <div class="form-group">
