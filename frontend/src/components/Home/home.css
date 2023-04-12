@@ -4,6 +4,8 @@
          /* url('../fonts/aspekta.woff') format('woff'); */
   /* } */
 
+  /* Below NavBar */
+
 .nav-container {
     display: flex;
     flex-direction: row-reverse;
@@ -60,11 +62,11 @@
     padding: 8px 32px;
     gap: 8px;
     width: 153px;
+    transition: width 0.4s ease-in-out;
     height: 48px;
     background: #004346;
     border-radius: 64px;
     border: none;
-
     /* font-family: 'Aspekta'; */
     font-style: normal;
     font-weight: 600;
@@ -77,7 +79,6 @@
 }
 
 .nav-button:hover .arrow-vector {
-    /* transition: width 0.4s ease-in-out; */
     display: block;
     position: relative;
     left: 10px;
@@ -94,10 +95,8 @@
     order: 1;
     flex-grow: 0;
 }
-/* 
-.nav-image-container {
-    border-bottom-right-radius: 10px;      
-} */
+
+/* OUR SERVICES */
 
 .our-services-container {
     /* display: flex; */
@@ -204,6 +203,8 @@
     /* margin-top: 50px !important; */
 } 
 
+/* Text below OUR SERVICES */
+
 .manage-text h1 {
     position: absolute;
     width: 941px;
@@ -226,6 +227,7 @@
     font-weight: 200px !important;
 }
 
+/* PROJECTS */
 
 .projects-outer {
     position: absolute;
@@ -405,6 +407,8 @@
     bottom: 33.23%;
 }
 
+/* Signup and Login Section */
+
 .signup-login-section {
     box-sizing: border-box;
     display: flex;
@@ -454,6 +458,16 @@
     border: none;
 }
 
+.login-btn:hover .arrow-vector{
+    display: block;
+    position: relative;
+    left: 10px;
+}
+
+.login-btn:hover {
+    width: 50%;
+}
+
 .signup-btn {
     width: 58px;
     height: 21px;
@@ -472,6 +486,8 @@
     align-items: center;
     justify-content: space-evenly ;
 }
+
+/* CONTACT US */
 
 .contact-container {
     display: flex;
@@ -567,9 +583,6 @@
   
   button[type="submit"]:hover,
   button[type="submit"]:focus {
-    /* background-color: #0069d9;
-    border-color: #0062cc;
-    outline: none; */
   }
   
 /* ================================================================= */
@@ -653,7 +666,7 @@
     display: flex;
 }
 
-.card-1 h6 {
+/* .card-1 h6 {
     position: relative;
     bottom:100px;
     width: 131px;
@@ -666,15 +679,15 @@
     color: #000000;
 }
 
-.card-1 h2 {
+/* .card-1 h2 {
     position: relative;
     bottom: 150px;
     width: 116px;
     height: 35px;
-    /* font-family: 'Aspekta'; */
+    font-family: 'Aspekta';
     font-style: normal;
     font-weight: 500;  /* 700 */
-    font-size: 27px;
+    /* font-size: 27px;
     line-height: 130%;
     color: #000000;
 }
@@ -720,7 +733,9 @@
     height: 48px;
     background: #004346;
     border-radius: 64px;
-}
+} */ 
+
+/* FOOTER */
 
 .footer-container {
     display: flex;
@@ -729,11 +744,11 @@
     align-items: center;
     padding: 40px 0px;
     gap: 72px;
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 347px;
     left: 0px;
-    top: 4818px;
+    top: 400px;
     background: #02220B;
 }
 

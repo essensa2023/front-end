@@ -8,6 +8,7 @@ import arrow from "../../images/arrow.png";
 import curve1 from "../../images/curve-1.png";
 import curve2 from "../../images/curve-2.png";
 import curve3 from "../../images/curve-3.png";
+import Card from "./subCard"
 
 const Home = () => {
     return ( 
@@ -135,7 +136,7 @@ const Home = () => {
                 <h1>Essensa’s all-in-one web based portfolio management system </h1>
                 <div className="sign-log-btns">
                     <a className="signup-btn">Sign Up</a>
-                    <button className="login-btn" href="#">Login</button>
+                    <button className="login-btn" href="#">Login <img src={arrow} className="arrow-vector" /> </button>
                 </div>
             </div>
 
@@ -198,19 +199,9 @@ const Home = () => {
 
 
                 <div classname="plans-container">
-                    <div className="card-1">
-                        <h1>3 Months</h1>
-                        <p className="service-tag">Services Included:</p>
-                        <p className="duties-tag">Consulting,Auditing & Web Platform</p>
 
-                        <h6>Tier-1 Companies</h6>
-                        <h2>1.5 Lakhs</h2>
-
-                        <h5>Tier-1 Companies</h5>
-                        <h3>3.3 Lakhs</h3>
-
-                        <button>Subscribe</button>
-                    </div>
+                    <Card />
+                    
 
                     {/* <div className="card-2">
                         <h1>3 Months</h1>

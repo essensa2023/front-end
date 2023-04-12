@@ -1,0 +1,68 @@
+.card-1 h6 {
+    position: relative;
+    bottom:100px;
+    width: 131px;
+    height: 21px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h2 {
+    position: relative;
+    bottom: 150px;
+    width: 116px;
+    height: 35px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 500;  /* 700 */
+    font-size: 27px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h5 {
+    position: relative;
+    bottom: 190px;
+    width: 131px;
+    height: 21px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 h3 {
+    position: relative;
+    bottom: 235px;
+    width: 122px;
+    height: 35px;
+    font-family: 'Aspekta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-1 button {
+    color:#B2ECA1;
+    border: none;
+    position: relative;
+    bottom: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    width: 140px;
+    height: 48px;
+    background: #004346;
+    border-radius: 64px;
+}
