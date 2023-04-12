@@ -8,7 +8,6 @@
 
 .nav-container {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-end;
     padding: 80px 0px 0px 64px;
@@ -23,7 +22,14 @@
     z-index: -1;
 }
 
+.nav-contents {
+    width: 1000px;
+    height: 500px;
+}
+
 .nav-heading {
+    /* position: relative;
+    bottom: 60%; */
     width: 702px;
     height: 68px;
     font-family: 'Source Serif Pro';
@@ -328,7 +334,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: flex-start;
     padding: 16px 48px;
     gap: 4px;
@@ -667,11 +673,12 @@
 }
 
 .plans-container {
-    display: flex ;
-    height: fit-content;
-    /* justify-items: auto; */
-    align-items: center;
-    justify-content: space-between;
+    display: flex;
+    height: -moz-fit-content;
+    /* height: fit-content; */
+    /* align-items: center; */
+    justify-content: center;
+    /* align-content: center;*/
 }
 
 

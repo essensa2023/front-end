@@ -10,7 +10,10 @@ import curve2 from "../../images/curve-2.png";
 import curve3 from "../../images/curve-3.png";
 import Card from "./subCard";
 import Footer from "../Footer";
-// import mailAccount from "../../images/mail-account.png";
+import mailAccount from "../../images/mail-account-icon.png";
+import analyticsIcon from "../../images/analytics-icon.png";
+import fileIcon from "../../images/file-document-icon.png";
+
 const Home = () => {
     return ( 
         <>
@@ -20,7 +23,7 @@ const Home = () => {
 
             <div className="nav-container">
 
-                <div className="nav-content">
+                <div className="nav-contents">
                     <h1 className="nav-heading">ESG made easy for you.</h1>
                     <p className="nav-content">
                         Invest with purpose and measure impact with ease. 
@@ -103,10 +106,12 @@ const Home = () => {
             {/* Projects */}
 
             <div className="analytics-card">
+                    <img src={analyticsIcon} />
                     <h1>Analytics</h1>
             </div>
 
             <div className="assessment-card">
+                    <img src={fileIcon} />
                     <h1>Assessment</h1>
             </div>
 
@@ -147,8 +152,7 @@ const Home = () => {
             <div className="contact-container">
                 <div className="contact-info">
                     <h1>Contact Us</h1>
-                    {/* img src={mailAccount} /> */}
-                    <p>hi@essensa.com</p>
+                    <p><img src={mailAccount} />hi@essensa.com</p>
                     <p>Location</p>
                 </div>
                  

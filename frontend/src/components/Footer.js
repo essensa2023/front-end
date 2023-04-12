@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import mailImage from "../images/mail-account-icon.png";
+import location from "../images/location-icon.png";
 
 const Footer = () => {
     return ( 
@@ -12,8 +14,11 @@ const Footer = () => {
                     <p>About ESG & CSR</p>
                 </div>
                 <div className="details-line">
-                    <p>hi@essensa.com</p>
-                    <p>Address</p> 
+                    {/* <p><img src={mailImage} />hi@essensa.com</p>
+                    <p><img src={location} />Address</p>  */}
+
+                    <p><img src={mailImage} className="mailimage-footer"/>hi@essensa.com</p>
+                    <p><img src={location} className="location-footer"/>Address</p> 
                 </div>
             </div>    
 

@@ -48,6 +48,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
+    margin-bottom: 50px;
     color: #FFFFFF;
 }
 
@@ -68,4 +69,16 @@
     font-size: 12px;
     line-height: 130%;
     color: #B5C4BE;
+}
+
+.mailimage-footer {
+    position: absolute;
+    left: 71.13%;
+    right: 8.35%;
+    top: 10.42%;
+    bottom: 18.75%;
+}
+
+.location-footer {
+
 }
