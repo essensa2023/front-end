@@ -8,7 +8,8 @@ import arrow from "../../images/arrow.png";
 import curve1 from "../../images/curve-1.png";
 import curve2 from "../../images/curve-2.png";
 import curve3 from "../../images/curve-3.png";
-import Card from "./subCard"
+import Card from "./subCard";
+import Footer from "../Footer";
 
 const Home = () => {
     return ( 
@@ -200,8 +201,17 @@ const Home = () => {
 
                 <div classname="plans-container">
 
-                    <Card />
-                    
+                    <Card 
+                        time="3 years"
+                        amount1="1.5 Lakhs"
+                        amount2="3 Lakhs"    
+                    />
+                    <Card 
+                        time="1.5 years"
+                        amount1="2 Lakhs"
+                        amount2="5 Lakhs"    
+                    />
+                    {/* <Card /> */}
 
                     {/* <div className="card-2">
                         <h1>3 Months</h1>
@@ -222,33 +232,7 @@ const Home = () => {
 
                 {/* Footer */}
 
-                <div className="footer-container">
-                    <div className="features-and-details">
-                        <div className="features-line">
-                            <p>Services</p>
-                            <p>Pricing</p>
-                            <p>About Us</p>
-                            <p>About ESG & CSR</p>
-                        </div>
-                        <div className="details-line">
-                            <p>hi@essensa.com</p>
-                            <p>Address</p> 
-                        </div>
-                    </div>    
-
-                    <div className="ending-line-container">
-                        <div classname="logo-container">
-                            hello
-                        </div>
-                        <div className="privacy-sections">
-                            <p>Privacy Policy</p>
-                            <p>Terms of Service</p>
-                            <p>Cookie Policy</p>
-                            <p>Legal Notice</p>
-                        </div>
-                    </div>
-
-                </div>
+                <Footer />
 
             </div>
 

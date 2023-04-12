@@ -664,6 +664,8 @@
 
 .plans-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* .card-1 h6 {
@@ -736,79 +738,6 @@
 } */ 
 
 /* FOOTER */
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
-    gap: 72px;
-    position: relative;
-    width: 1440px;
-    height: 347px;
-    left: 0px;
-    top: 400px;
-    background: #02220B;
-}
-
-.features-line {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-  
-.features-and-details {
-    width: 1440px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.features-line p {
-    text-decoration: none;
-    width: 150px;
-    height: 21px;
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
-    color: white;
-}
-
-.details-line p {
-    width: 122px;
-    height: 21px;
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
-    color: #FFFFFF;
-}
-
-.privacy-sections {
-    width: 691px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.privacy-sections p {
-    width: 100px;
-    height: 16px;
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 130%;
-    color: #B5C4BE;
-}
-
 
 
 .arrow-vector {

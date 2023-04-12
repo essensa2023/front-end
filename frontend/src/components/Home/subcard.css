@@ -16,15 +16,15 @@
     bottom: 150px;
     width: 116px;
     height: 35px;
-    /* font-family: 'Aspekta'; */
+    font-family: 'Aspekta';
     font-style: normal;
     font-weight: 500;  /* 700 */
     font-size: 27px;
     line-height: 130%;
     color: #000000;
-}
+} 
 
-.card-1 h5 {
+ .card-1 h5 {
     position: relative;
     bottom: 190px;
     width: 131px;
