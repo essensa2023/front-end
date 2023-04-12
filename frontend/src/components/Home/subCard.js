@@ -1,7 +1,10 @@
 import React from "react";
 import "./subcard.css";
 
+
+
 const Card = (props) => {
+
     return ( 
         <>
           <div className="card-1">

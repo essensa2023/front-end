@@ -49,7 +49,6 @@ const Home = () => {
                     <div className="our-services-image">
                         <h1>How We Add Value</h1>
                         <img classname="services-image" src={contentImage}></img>
-
                     </div>
 
                     <div className="our-services-content">
@@ -119,11 +118,11 @@ const Home = () => {
             <img src={ellipse} className="ellipse-1" />
             <img src={ellipse} className="ellipse-2" />
 
-            {/* <div className="curves"> */}
-                {/* <img src={curve1} className="curve-1" />
+            {/* <div className="curves"> 
+                <img src={curve1} className="curve-1" />
                 <img src={curve2} className="curve-2" />
-                <img src={curve3} className="curve-3" /> */}
-            {/* </div> */}
+                <img src={curve3} className="curve-3" />
+            </div> */}
 
 
             <div className="projects-outer">
@@ -152,7 +151,8 @@ const Home = () => {
             <div className="contact-container">
                 <div className="contact-info">
                     <h1>Contact Us</h1>
-                    <p><img src={mailAccount} />hi@essensa.com</p>
+                    {/* <p><img src={mailAccount} />hi@essensa.com</p> */}
+                    <p>hi@essensa.com</p>
                     <p>Location</p>
                 </div>
                  
@@ -211,6 +211,7 @@ const Home = () => {
                         amount2="3 Lakhs"    
                     />
                     <Card 
+
                         time="1.5 years"
                         amount1="2 Lakhs"
                         amount2="5 Lakhs"    

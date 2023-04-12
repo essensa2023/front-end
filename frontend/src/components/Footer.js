@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import mailImage from "../images/mail-account-icon.png";
 import location from "../images/location-icon.png";
+import logo from "../images/logo.png";
 
 const Footer = () => {
     return ( 
@@ -27,6 +28,7 @@ const Footer = () => {
                     hello
                 </div>
                 <div className="privacy-sections">
+                    <img src={logo} />
                     <p>Privacy Policy</p>
                     <p>Terms of Service</p>
                     <p>Cookie Policy</p>

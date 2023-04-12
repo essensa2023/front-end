@@ -382,8 +382,8 @@
     z-index: 4;
 }
 
+
 .curve-3 {
-    box-sizing: border-box;
     position: absolute;
     /* left: 0%;
     right: 13.21%;
@@ -395,7 +395,6 @@
 }
 
 .curve-2 {
-    box-sizing: border-box;
     position: absolute;
     left: 18.75%;
     right: 27.67%;
@@ -404,14 +403,37 @@
     transform: rotate(-10.24deg);
 }
 
-.curve-3 {
-    box-sizing: border-box;
+.curve-1 {
     position: absolute;
     left: 33.43%;
     right: 33.7%;
     top: 33.9%;
     bottom: 33.23%;
 }
+
+.curve-2:hover{
+  transform: rotate(-45deg);
+  animation: rotate1 2s infinite linear;
+}
+
+@keyframes rotate1 {
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+
+.curve-1:hover {
+    transform: rotate(315deg);
+    animation: rotate2 2s infinite linear;
+}
+
+@keyframes rotate2 {
+    to {
+        transform: rotate(-45deg);
+    }
+}
+
 
 /* Signup and Login Section */
 
@@ -450,6 +472,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    transition: width 0.4s ease-in-out;
     padding: 8px 32px;
     gap: 8px;
     width: 106px;
@@ -601,13 +624,15 @@
     gap: 128px;
     position: absolute;
     width: 1440px;
-    height: 1659px;
+    height: 1059px;
     left: 0px;
-    top: 4500px;
+    top: 3900px;
     background: #FFFFFF;
 }
 
 .choose-right-plan {
+    position: relative;
+    top: 175px;
     width: 1440px;
 }
 
@@ -638,8 +663,8 @@
     top: 179px;
     background: #E4F3E0;
     border-radius: 24px;
-    margin: 4px;
-
+    margin-right: 100px;
+    margin-left: auto;
  
 }
 
