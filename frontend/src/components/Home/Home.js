@@ -10,7 +10,7 @@ import curve2 from "../../images/curve-2.png";
 import curve3 from "../../images/curve-3.png";
 import Card from "./subCard";
 import Footer from "../Footer";
-
+// import mailAccount from "../../images/mail-account.png";
 const Home = () => {
     return ( 
         <>
@@ -147,7 +147,7 @@ const Home = () => {
             <div className="contact-container">
                 <div className="contact-info">
                     <h1>Contact Us</h1>
-
+                    {/* img src={mailAccount} /> */}
                     <p>hi@essensa.com</p>
                     <p>Location</p>
                 </div>
@@ -199,7 +199,7 @@ const Home = () => {
                 </div>
 
 
-                <div classname="plans-container">
+                <div className="plans-container">
 
                     <Card 
                         time="3 years"
@@ -211,22 +211,11 @@ const Home = () => {
                         amount1="2 Lakhs"
                         amount2="5 Lakhs"    
                     />
-                    {/* <Card /> */}
-
-                    {/* <div className="card-2">
-                        <h1>3 Months</h1>
-                        <p className="service-tag">Services Included:</p>
-                        <p className="duties-tag">Consulting,Auditing & Web Platform</p>
-
-                        <h6>Tier-1 Companies</h6>
-                        <h2>1.5 Lakhs</h2>
-
-                        <h5>Tier-1 Companies</h5>
-                        <h3>3.3 Lakhs</h3>
-
-                        <button>Subscribe</button>
-                    </div> */}
-
+                    <Card 
+                        time="1.5 years"
+                        amount1="2 Lakhs"
+                        amount2="5 Lakhs"    
+                    />
 
                 </div>
 
