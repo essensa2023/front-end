@@ -1,0 +1,11 @@
+span {
+    font-weight: 500 !important;
+}
+
+/* p {
+    line-height: 130%;
+} */
+
+.option-container {
+    gap: 100px !important;
+}
