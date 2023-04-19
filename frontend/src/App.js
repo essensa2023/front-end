@@ -7,8 +7,8 @@ import Register from './components/Register/Register';
 function App() {
   return (
     <>
-     <Home />
-     {/* <Register /> */}
+     {/* <Home /> */}
+     <Register />
     </>
   );
 }
