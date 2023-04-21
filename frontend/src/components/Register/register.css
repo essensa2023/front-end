@@ -2,16 +2,24 @@ span {
     font-weight: 500 !important;
 }
 
-/* p {
-    line-height: 130%;
-} */
-
 .option-container {
     gap: 100px !important;
 }
 
-/* .details-of-company {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-} */
+.company-details {
+    /* gap: 230px; */
+}
+
+.next-btn {
+    padding: 8px 32px;
+    border-radius: 80px;
+    width: 100px;
+    height: 48px;
+}
+
+.btn-container {
+    position: relative;
+    bottom:10em;
+}
+
+
