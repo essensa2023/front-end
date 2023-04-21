@@ -7,7 +7,7 @@ import logo from "../images/logo.png";
 
 const Footer = () => {
     return ( 
-        <div className="footer-container w-full h-auto bg-custom-dark-green2 mt-32">
+        <div className="footer-container w-full h-auto bg-custom-dark-green2">
 
             <div className="features-and-details flex align-center justify-around pt-16">
                 <div className="features-line">

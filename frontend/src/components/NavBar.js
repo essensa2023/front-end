@@ -10,7 +10,7 @@ const Navbar = () => {
         <li><a href="#">Services</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About Us</a></li>
-        <li className='login'><a href="#">Log In</a></li>
+        <li className='login'><a href="/login">Log In</a></li>
         <li><button className="get_in_touch-button">Get In Touch</button></li>
       </ul>
     </nav>

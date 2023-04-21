@@ -57,7 +57,7 @@ const Login = () => {
             </div> 
 
             <div className="flex justify-center mt-[-6em] ">
-                <p className="text-custom-dark-green">New to platform? <span className="text-custom-light-green3">Join Essensa</span> </p>
+                <p className="text-custom-dark-green">New to platform?<a href="/register" className="no-underline"><span className="text-custom-light-green3">Join Essensa</span></a></p>
             </div>
 
             <Footer />       
