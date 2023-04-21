@@ -101,7 +101,7 @@ const Register = () => {
 
                 <form onSubmit={handleSubmit}>
                     <div>
-                      <label htmlFor="companyName" className="font-medium">Full Name:</label>
+                      <label htmlFor="fullName" className="font-medium">Full Name:</label>
                       <input
                         type="text"
                         id="fullName"
@@ -112,7 +112,7 @@ const Register = () => {
                     </div>
 
                     <div>
-                      <label htmlFor="companyName" className="font-medium">Email:</label>
+                      <label htmlFor="email" className="font-medium">Email:</label>
                       <input
                         type="text"
                         id="email"
@@ -120,10 +120,10 @@ const Register = () => {
                         onChange={(event) => setEmail(event.target.value)}
                         className="bg-white border border-gray-300 rounded-md px-3 py-2 mt-1 mb-3 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
                       />
-                    </div>
+                    </div>  
 
                     <div>
-                      <label htmlFor="companyName" className="font-medium">Phone number:</label>
+                      <label htmlFor="phone" className="font-medium">Phone number:</label>
                       <input
                         type="text"
                         id="phone"

@@ -1,0 +1,12 @@
+.input-field {
+    border: 1px solid black !important;
+}
+
+.login-pg-btn {
+    position: relative;
+    top: 14em;
+    padding: 8px 32px;
+    border-radius: 80px;
+    width: 100px;
+    height: 48px;
+}
