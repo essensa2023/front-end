@@ -17,15 +17,17 @@ import fileIcon from "../../images/file-document-icon.png";
 const Home = () => {
     return ( 
         <>
-            <NavBar />
+            <div>
+                <NavBar />
+            </div>
 
             {/* Below NavBar */}
 
-            <div className="nav-container">
+            <div className="nav-container flex justify-between align-end bg-custom-light-green5 mr-48 ml-48 pl-16">
 
-                <div className="nav-contents">
-                    <h1 className="nav-heading">ESG made easy for you.</h1>
-                    <p className="nav-content">
+                <div className="nav-contents pt-24">
+                    <h1 className="nav-heading mb-4 text-custom-dark-green">ESG made easy for you.</h1>
+                    <p className="nav-content text-custom-black2 text-xl mb-4">
                         Invest with purpose and measure impact with ease. 
                         Connect with organizations that align with your CSR and ESG goals. 
                         Make informed investments and manage portfolios with ease. 
@@ -226,7 +228,9 @@ const Home = () => {
 
             </div>
 
-            {/* <Footer /> */}
+            <div>
+                <Footer />
+            </div>
         </>
      );
 }
