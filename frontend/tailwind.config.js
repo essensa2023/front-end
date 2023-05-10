@@ -12,7 +12,10 @@ module.exports = {
         'custom-light-green1':'#B5C4BE',
         'custom-light-green2':'#B2ECA1',
         'custom-light-green3':'#15B779',
-        'custom-black1':'#433520'
+        'custom-light-green4' :'#ECF2EA',
+        'custom-light-green5' : '#E4F3E0',
+        'custom-black1':'#433520',
+        'custom-black2':'#0C1E11',
       },
     },
   },

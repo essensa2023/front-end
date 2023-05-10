@@ -1,12 +1,10 @@
 
-/* .footer-container {
-    width: 100% !important;
-} */
 .privacy-items {
     width: 400px !important;
 }
 
-/* .footer-container {
-    position: absolute;
-    top: 4818px !important;
-} */
+.footer-container {
+    position: absolute !important;
+    top: 5000px;
+}
+
