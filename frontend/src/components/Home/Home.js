@@ -133,9 +133,15 @@ const Home = () => {
 
             <div className="projects-outer">
                 <div className="projects-inner">
-                    <div className="equality-card">
+                    <div className="equality-card hover:bg-green-500 transition ease-in-out duration-300">
                         <h3>Equality</h3>
                         <h1>2 Lakhs</h1>
+                        <p>1 Project Completed</p>
+                    </div>
+
+                    <div className="social-card hover:bg-custom-peach transition ease-in-out duration-300">
+                        <h3>Social</h3>
+                        <h1>1 Lakhs</h1>
                         <p>1 Project Completed</p>
                     </div>
                 </div>
@@ -195,7 +201,7 @@ const Home = () => {
                         </div>
 
                         <div class="form-group">
-                            <button type="submit">Schedule a Call</button>
+                            <button type="submit" className="schedule-btn">Schedule a Call <img src={arrow} className="arrow-vector"/></button>
                         </div>
                     </form>
                 </div> 
