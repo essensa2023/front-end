@@ -16,6 +16,7 @@ module.exports = {
         'custom-light-green5' : '#E4F3E0',
         'custom-black1':'#433520',
         'custom-black2':'#0C1E11',
+        'custom-peach' : '#FDE8CD'
       },
     },
   },

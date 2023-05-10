@@ -23,7 +23,7 @@ const Home = () => {
 
             {/* Below NavBar */}
 
-            <div className="nav-container flex justify-between align-end bg-custom-light-green5 mr-48 ml-48 pl-16">
+            <div className="nav-container flex justify-between align-end bg-custom-light-green5 mr-64 ml-64 pl-16">
 
                 <div className="nav-contents pt-24">
                     <h1 className="nav-heading mb-4 text-custom-dark-green">ESG made easy for you.</h1>
@@ -43,57 +43,61 @@ const Home = () => {
 
             {/* Our Services component */}
 
-            <div className="our-services-container">
-                <h1 className="our-services">OUR SERVICES</h1>
+            <div className="our-services-container flex flex-col bg-custom-dark-green justify-center align-center mt-16">
+                <h1 className="our-services text-custom-peach text-sm flex justify-center mt-4">OUR SERVICES</h1>
 
-                <div className="our-services-content-container">
+                <div className="our-services-content-container flex justify-between">
 
-                    <div className="our-services-image">
-                        <h1>How We Add Value</h1>
-                        <img classname="services-image" src={contentImage}></img>
+                    <div className="our-services-image ml-16">
+                        <h1 className="text-custom-light-green2 relative mt-32 text-5xl bottom-16">How We Add Value</h1>
+                        <img classname="services-image relative bottom-8" src={contentImage}></img>
                     </div>
 
-                    <div className="our-services-content">
-                        <h2>Project Management</h2>
-                        <p>
-                           Using state of the art project management tools, processes and strategic 
-                           planning every step of the way, we ensure optimum resource utilisation, 
-                           effective communication and collaboration between stakeholders, 
-                           achieving intended objectives on schedule and on budget.
-                        </p> 
+                    <div className="our-services-content w-1/2 flex flex-col ">
+                        <div>
+                            <h2 className="text-3xl text-white mt-16">Project Management</h2>
+                            <p>
+                            Using state of the art project management tools, processes and strategic 
+                            planning every step of the way, we ensure optimum resource utilisation, 
+                            effective communication and collaboration between stakeholders, 
+                            achieving intended objectives on schedule and on budget.
+                            </p> 
+                            <a href="#">Learn More</a>
+                        </div>
 
-                        <a href="#">Learn More</a>
+                        <div>
+                            <h2 className="text-3xl text-white mt-16">Project Management</h2>
+                            <p>
+                            Using state of the art project management tools, processes and strategic 
+                            planning every step of the way, we ensure optimum resource utilisation, 
+                            effective communication and collaboration between stakeholders, 
+                            achieving intended objectives on schedule and on budget.
+                            </p> 
+                            <a href="#">Learn More</a>
+                        </div>
 
-                        <h2>Project Management</h2>
-                        <p>
-                           Using state of the art project management tools, processes and strategic 
-                           planning every step of the way, we ensure optimum resource utilisation, 
-                           effective communication and collaboration between stakeholders, 
-                           achieving intended objectives on schedule and on budget.
-                        </p> 
+                        <div>
+                            <h2 className="text-3xl text-white mt-16">Project Management</h2>
+                            <p>
+                            Using state of the art project management tools, processes and strategic 
+                            planning every step of the way, we ensure optimum resource utilisation, 
+                            effective communication and collaboration between stakeholders, 
+                            achieving intended objectives on schedule and on budget.
+                            </p> 
+                            <a href="#">Learn More</a>
+                        </div>
 
-                        <a href="#">Learn More</a>
-
-                        <h2>Project Management</h2>
-                        <p>
-                           Using state of the art project management tools, processes and strategic 
-                           planning every step of the way, we ensure optimum resource utilisation, 
-                           effective communication and collaboration between stakeholders, 
-                           achieving intended objectives on schedule and on budget.
-                        </p> 
-
-                        <a href="#">Learn More</a>
-
-                        <h2>Project Management</h2>
-                        <p>
-                           Using state of the art project management tools, processes and strategic 
-                           planning every step of the way, we ensure optimum resource utilisation, 
-                           effective communication and collaboration between stakeholders, 
-                           achieving intended objectives on schedule and on budget.
-                        </p> 
-
-                        <a href="#">Learn More</a>
-                    </div>
+                        <div>
+                            <h2 className="text-3xl text-white mt-16">Project Management</h2>
+                            <p>
+                            Using state of the art project management tools, processes and strategic 
+                            planning every step of the way, we ensure optimum resource utilisation, 
+                            effective communication and collaboration between stakeholders, 
+                            achieving intended objectives on schedule and on budget.
+                            </p> 
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>                  
 
                 </div>
             </div>
@@ -199,13 +203,14 @@ const Home = () => {
 
             {/* Subscription */}
 
-            <div className="subscription-plans-container">
-                <div className="choose-right-plan">
-                    <h1>Choose the Right Plan <span className="italics"> for Your CSR and ESG Investment Goals </span> </h1>
+            <div className="subscription-plans-container flex flex-col">
+
+                <div className="choose-right-plan mb-16">
+                    <h1 className="ml-64">Choose the Right Plan <span className="italics"> for Your CSR and ESG Investment Goals </span> </h1>
                 </div>
 
 
-                <div className="plans-container">
+                <div className="plans-container w-full flex justify-around ml-96">
 
                     <Card 
                         time="3 years"
@@ -227,6 +232,7 @@ const Home = () => {
                 </div>
 
             </div>
+
 
             <div>
                 <Footer />

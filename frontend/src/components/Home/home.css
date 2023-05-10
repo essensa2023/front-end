@@ -59,96 +59,24 @@
 .nav-image {
     width: 400px;
     height: 569px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    border-bottom-right-radius: 56px;
 }
 
 /* OUR SERVICES */
 
-.our-services-container {
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    padding: 80px;
-    gap: 64px;
 
-    position: absolute;
-    width: 1440px;
-    height: 1108px;
-    left: 0px;
-    top: 792px;
-    background: #004346;
-}
-.our-services {
-    position: absolute;
-    left: 45%;
-    padding-bottom: 50px;
-}
-
-.our-services-container h1 {
-    width: 149px;
-    height: 21px;
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 130%;
-    letter-spacing: 0.18em;
-    color: #FDE8CD;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .our-services-image h1 {
-    width: 433px;
-    height: 68px;
-    margin-top: 100px;
-
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 130%;
-    color: #B2ECA1;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    font-family: 'Aspekta';
 }
 
-.services-image {
-    position: absolute;
-    width: 493px;
-    height: 714px;
-    left: 0px;
-    top: 100px; 
-}
 
-.our-services-content-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.our-services-content h2 {
-    width: 265px;
-    height: 35px;
-
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 130%;
-    color: #FFFFFF;
-    margin-top: 50px !important;
-}
 
 .our-services-content p {
     width: 607px;
     height: 84px;
-    /* font-family: 'Aspekta'; */
+    font-family: 'Aspekta';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -168,7 +96,7 @@
     line-height: 130%;
     color: #15B779;
     text-decoration: none;
-    /* margin-top: 50px !important; */
+    margin-top: 50px !important;
 } 
 
 /* Text below OUR SERVICES */
@@ -484,13 +412,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 64px 0px;
     gap: 128px;
     position: absolute;
-    width: 1440px;
     height: 1000px;
-    /* left: 0px; */
     top: 3159px;
     background: #FFFFFF;
 }
@@ -585,17 +511,11 @@
     padding: 64px 0px;
     gap: 128px;
     position: absolute;
-    width: 1440px;
+    /* width: 1440px; */
     height: 1059px;
     left: 0px;
     top: 3900px;
     background: #FFFFFF;
-}
-
-.choose-right-plan {
-    position: relative;
-    top: 175px;
-    width: 1440px;
 }
 
 .choose-right-plan h1 {
@@ -611,63 +531,11 @@
     color: #000000;
 }
 
-.card-1 { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    gap: 50px;
-    position: relative;
-    justify-content: space-around;
-    /* width: 350px; */
-    height: fit-content;
-    left: 0px;
-    top: 179px;
-    background: #E4F3E0;
+
+
+.card-1 {
     border-radius: 24px;
-    margin-right: 100px;
-    margin-left: auto;
- 
 }
-
-.card-1 h1 {
-
-}
-
-.service-tag {
-    position: relative;
-    right:85px;
-    width: 99px;
-    height: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.duties-tag {
-    position: relative;
-    bottom: 60px;
-    width: 270px;
-    height: 21px;
-    /* font-family: 'Aspekta'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.plans-container {
-    display: flex;
-    height: -moz-fit-content;
-    /* height: fit-content; */
-    /* align-items: center; */
-    justify-content: center;
-    /* align-content: center;*/
-}
-
 
 
 /* FOOTER */
